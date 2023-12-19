@@ -1,20 +1,25 @@
 <script>
-import componentContainer from './componentContainer.vue';
+import componentNavbar from './componentNavbar.vue';
+import componentTextHeader from './componentTextHeader.vue';
 export default {
+    name: "appHeader",
     data() {
-        name:
         return {
 
         }
     },
     components: {
-        componentContainer
+        componentNavbar,
+        componentTextHeader
     }
 }
 </script>
 <template>
     <header>
-        <componentContainer />
+        <div class="container-primary">
+            <componentNavbar />
+            <componentTextHeader />
+        </div>
     </header>
 </template>
 <style scoped lang="scss">
