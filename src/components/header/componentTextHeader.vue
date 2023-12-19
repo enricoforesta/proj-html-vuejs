@@ -12,13 +12,12 @@ export default {
 </script>
 <template>
     <div class="text">
-        <span>Alwats thee best way you need it</span>
+        <span>Always the best way you need it</span>
         <h2>The best bussiness consulting</h2>
         <div class="read-more">
             <input type="button" value="READ MORE">
             <font-awesome-icon icon="fa-solid fa-play" />
         </div>
-
     </div>
 </template>
 <style scoped lang="scss">
@@ -33,6 +32,10 @@ div.text {
         text-transform: uppercase;
         margin: 50px 0;
         line-height: 100%;
+    }
+
+    span {
+        text-transform: uppercase;
     }
 
     span::before {
