@@ -1,15 +1,19 @@
 <script>
+import componentNavbar from './componentNavbar.vue';
 export default {
+    name: "container",
     data() {
         return {
 
         }
+    }, components: {
+        componentNavbar
     }
 }
 </script>
 <template>
     <div class="container">
-        <h2>navbar componente</h2>
+        <componentNavbar />
         <h2>testo lungo</h2>
     </div>
 </template>

@@ -18,11 +18,14 @@ export default {
     </header>
 </template>
 <style scoped lang="scss">
+@use '../../scss/partials/variable' as *;
+
 header {
     background-image: url('../../assets/img/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg');
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: right;
     height: 1000px;
+    color: $primary-text-color;
 }
 </style>
