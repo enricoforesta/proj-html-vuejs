@@ -1,11 +1,28 @@
 <script>
+import componentContainer from './componentContainer.vue';
 export default {
     data() {
+        name:
         return {
 
         }
+    },
+    components: {
+        componentContainer
     }
 }
 </script>
-<template></template>
-<style scoped></style>
+<template>
+    <header>
+        <componentContainer />
+    </header>
+</template>
+<style scoped lang="scss">
+header {
+    background-image: url('../../assets/img/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right;
+    height: 1000px;
+}
+</style>
