@@ -25,7 +25,6 @@ header {
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: right;
-    height: 1000px;
     color: $primary-text-color;
 }
 </style>
