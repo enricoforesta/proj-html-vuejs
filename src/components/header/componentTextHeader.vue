@@ -43,14 +43,15 @@ div.text {
         display: flex;
         align-items: center;
         gap: 25px;
+
+        .fa-play {
+            color: $btn-bg-color;
+            border: 1px solid white;
+            font-size: 12px;
+            padding: 15px;
+            border-radius: 50%;
+        }
     }
 
-    .fa-play {
-        color: $btn-bg-color;
-        border: 1px solid white;
-        font-size: 12px;
-        padding: 15px;
-        border-radius: 50%;
-    }
 }
 </style>
