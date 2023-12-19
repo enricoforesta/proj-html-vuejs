@@ -3,7 +3,7 @@ export default {
     name: "navbar",
     data() {
         return {
-            listName: ['home', 'abojt', 'projects', 'services', 'blog', 'contact',]
+            listName: ['home', 'about', 'projects', 'services', 'blog', 'contact',]
         }
     }
 }

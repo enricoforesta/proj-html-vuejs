@@ -1,5 +1,6 @@
 <script>
 import componentNavbar from './componentNavbar.vue';
+import componentTextHeader from './componentTextHeader.vue';
 export default {
     name: "container",
     data() {
@@ -7,14 +8,15 @@ export default {
 
         }
     }, components: {
-        componentNavbar
+        componentNavbar,
+        componentTextHeader
     }
 }
 </script>
 <template>
     <div class="container">
         <componentNavbar />
-        <h2>testo lungo</h2>
+        <componentTextHeader />
     </div>
 </template>
 <style scoped lang="scss">
