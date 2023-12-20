@@ -27,6 +27,7 @@ div.nav {
 
         li {
             padding-top: 30px;
+            cursor: pointer;
 
             &:hover {
                 border-top: 2px solid currentColor;

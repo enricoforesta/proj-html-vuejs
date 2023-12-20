@@ -7,18 +7,30 @@ export default {
             listConsultants: [
                 {
                     subTitle: 'statical consulting',
-                    description: 'When, while lovely valley teens with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a'
+                    description: 'When, while lovely valley teens with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a',
+                    pathImage: '../../assets/img/logoStatical.png'
                 }, {
                     subTitle: 'digital consulting',
-                    description: 'When, while lovely valley teens with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a'
+                    description: 'When, while lovely valley teens with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a',
+                    pathImage: '../../assets/img/logoDigital.png',
+
                 }, {
                     subTitle: 'banking consulting',
-                    description: 'When, while lovely valley teens with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a'
+                    description: 'When, while lovely valley teens with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a',
+                    pathImage: '../../assets/img/logoBanking.png',
+
                 }, {
                     subTitle: 'enterprise consulting',
-                    description: 'When, while lovely valley teens with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a'
+                    description: 'When, while lovely valley teens with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a',
+                    pathImage: '../../assets/img/logoEnterprise.png',
+
                 },
             ]
+        }
+    },
+    methods: {
+        getImagePath: function (imgPath) {
+            return new URL(imgPath, import.meta.url).href;
         }
     }
 }
@@ -32,12 +44,12 @@ export default {
         <div class="container-secondary">
             <ul>
                 <li v-for="item in listConsultants">
-                    <span>icona</span>
+                    <div class="image"> <img :src=getImagePath(item.pathImage) :alt=item.title>
+                    </div>
                     <div class="description">
                         <h4>{{ item.subTitle.toUpperCase() }}</h4>
                         <p>{{ item.description }}</p>
                     </div>
-
                 </li>
             </ul>
         </div>
@@ -78,8 +90,12 @@ div.consultants {
 
             li {
                 display: flex;
-                gap: 50px;
+                gap: 25px;
                 width: calc((100% /2) - 150px);
+
+                .image {
+                    width: 250px;
+                }
 
                 .description {
                     line-height: 30px;

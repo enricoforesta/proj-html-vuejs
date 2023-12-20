@@ -6,12 +6,12 @@
 }
 
 .container-primary {
-    width: 1600px;
+    width: 1280px;
     margin: 0 auto;
 }
 
 .container-secondary {
-    width: 1400px;
+    width: 1080px;
     margin: 0 auto;
 }
 
@@ -20,13 +20,10 @@ body {
 
     li {
         list-style: none;
-        cursor: pointer;
     }
 
     img {
         width: 100%;
-        height: 100%;
         display: block;
-        object-fit: contain;
     }
 }

@@ -28,7 +28,7 @@ export default {
 header {
     background-image: url('../../assets/img/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg');
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: right;
     color: $primary-text-color;
 }

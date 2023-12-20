@@ -4,7 +4,8 @@ export default {
     name: "text-header",
     data() {
         return {
-
+            title: 'The best bussiness consulting',
+            subtitle: 'Always the best way you need it'
         }
     }, components: {
     }
@@ -12,8 +13,8 @@ export default {
 </script>
 <template>
     <div class="text">
-        <span>Always the best way you need it</span>
-        <h2>The best bussiness consulting</h2>
+        <span>{{ subtitle.toUpperCase() }}</span>
+        <h2>{{ title.toUpperCase() }}</h2>
         <div class="read-more">
             <input type="button" value="READ MORE">
             <font-awesome-icon icon="fa-solid fa-play" />
@@ -25,17 +26,12 @@ export default {
 
 div.text {
     padding: 180px 20px;
-    width: 800px;
+    width: 700px;
 
     h2 {
         font-size: 100px;
-        text-transform: uppercase;
         margin: 50px 0;
         line-height: 100%;
-    }
-
-    span {
-        text-transform: uppercase;
     }
 
     span::before {
