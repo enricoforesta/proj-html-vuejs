@@ -29,6 +29,7 @@ export default {
 div.help {
     height: 320px;
     margin-right: 165px;
+    color: black;
     background-color: $btn-bg-color;
     position: relative;
 
@@ -51,7 +52,7 @@ div.help {
         padding: 0 200px;
 
         &>* {
-            width: calc(100% / 2);
+            width: calc((100% - 100px) / 2);
         }
 
         h2 {

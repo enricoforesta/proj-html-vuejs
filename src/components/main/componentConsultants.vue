@@ -60,6 +60,7 @@ export default {
 
 div.consultants {
     background-color: white;
+    color: black;
 
     div.title {
         display: flex;
@@ -91,7 +92,7 @@ div.consultants {
             li {
                 display: flex;
                 gap: 25px;
-                width: calc((100% /2) - 150px);
+                width: calc((100% - 300px) / 2);
 
                 .image {
                     width: 250px;
