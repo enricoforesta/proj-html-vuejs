@@ -1,6 +1,7 @@
 <script>
 import componentConsultants from './componentConsultants.vue';
 import componentAboutUs from './componentAboutUs.vue';
+import componentHelp from './componentHelp.vue';
 export default {
     name: "appMain",
     data() {
@@ -11,6 +12,7 @@ export default {
     components: {
         componentConsultants,
         componentAboutUs,
+        componentHelp,
     }
 }
 </script>
@@ -18,6 +20,7 @@ export default {
     <main>
         <componentConsultants />
         <componentAboutUs />
+        <componentHelp />
     </main>
 </template>
 <style scoped></style>

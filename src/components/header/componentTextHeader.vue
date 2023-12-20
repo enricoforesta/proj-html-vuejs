@@ -50,10 +50,10 @@ div.text {
 
         input {
             padding: 20px 50px;
+            cursor: pointer;
             background-color: $btn-bg-color;
 
             &:hover {
-                cursor: pointer;
                 background-color: $btn-hover-color;
             }
         }
