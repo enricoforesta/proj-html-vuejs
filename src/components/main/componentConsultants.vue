@@ -91,7 +91,7 @@ div.consultants {
 
             li {
                 display: flex;
-                gap: 25px;
+                gap: 50px;
                 width: calc((100% - 300px) / 2);
 
                 .image {
