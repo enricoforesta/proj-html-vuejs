@@ -3,6 +3,7 @@ import componentConsultants from './componentConsultants.vue';
 import componentAboutUs from './componentAboutUs.vue';
 import componentHelp from './componentHelp.vue';
 import componentProject from './componentProject.vue';
+import componentTestimonial from './componentTestimonial.vue';
 export default {
     name: "appMain",
     data() {
@@ -15,6 +16,7 @@ export default {
         componentAboutUs,
         componentHelp,
         componentProject,
+        componentTestimonial
     }
 }
 </script>
@@ -24,6 +26,7 @@ export default {
         <componentAboutUs />
         <componentHelp />
         <componentProject />
+        <componentTestimonial />
     </main>
 </template>
 <style scoped></style>
