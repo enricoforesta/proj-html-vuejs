@@ -20,7 +20,7 @@ export default {
             <h2>{{ title.toUpperCase() }}</h2>
         </div>
         <div class="button">
-            <input type="button" value="GET STARTED">
+            <input type="button" value="VIEW ALL">
         </div>
         <componentImageBlog />
     </div>

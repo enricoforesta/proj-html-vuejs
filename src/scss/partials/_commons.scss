@@ -1,3 +1,5 @@
+@use './variable' as *;
+
 //reset
 * {
     margin: 0;
@@ -17,6 +19,7 @@
 
 body {
     background-color: #22213d;
+    color: $primary-text-color;
 
     li {
         list-style: none;

@@ -30,6 +30,5 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
-    color: $primary-text-color;
 }
 </style>
