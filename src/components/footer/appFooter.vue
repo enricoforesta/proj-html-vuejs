@@ -1,5 +1,6 @@
 <script>
 import componentImageFooter from './componentImageFooter.vue';
+import componentNavbarFooter from './componentNavbarFooter.vue';
 export default {
     data() {
         return {
@@ -8,12 +9,20 @@ export default {
     },
     components: {
         componentImageFooter,
+        componentNavbarFooter
     }
 }
 </script>
 <template>
     <footer>
         <componentImageFooter />
+        <div class="container-primary">
+            <componentNavbarFooter />
+        </div>
     </footer>
 </template>
-<style scoped></style>
+<style scoped>
+.container-primary {
+    color: gray;
+}
+</style>
