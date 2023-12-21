@@ -7,11 +7,6 @@ import componentTestimonial from './componentTestimonial.vue';
 import componentBlog from './componentBlog.vue';
 export default {
     name: "appMain",
-    data() {
-        return {
-
-        }
-    },
     components: {
         componentConsultants,
         componentAboutUs,

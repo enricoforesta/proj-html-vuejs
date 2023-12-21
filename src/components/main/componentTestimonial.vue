@@ -15,10 +15,12 @@ export default {
 </script>
 <template>
     <div class="container-primary">
+        <!-- text -->
         <div class="text">
             <span>{{ subTitle.toUpperCase() }}</span>
             <h2>{{ title.toUpperCase() }}</h2>
         </div>
+        <!-- / text -->
     </div>
     <componentTestimonialBottom />
 </template>

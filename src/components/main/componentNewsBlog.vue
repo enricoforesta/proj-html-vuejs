@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: "imageProject",
+    name: "News Blog",
     data() {
         return {
             title: 'Canadian Consulting Firm acquired by UK Giant',

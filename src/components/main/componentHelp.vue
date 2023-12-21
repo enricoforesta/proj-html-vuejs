@@ -7,21 +7,21 @@ export default {
             title: 'we help to deliver the business case',
             subtitle: 'When, while lovely valley teems with vapour around meand meridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown',
         }
-    },
-    components: {
-
     }
 }
 </script>
 <template>
+    <!--  help -->
     <div class="help">
         <input type="button" value="GET STARTED">
+        <!-- text -->
         <div class="text">
             <h2>{{ title.toUpperCase() }}</h2>
             <p>{{ subtitle }}</p>
         </div>
-
+        <!-- / text -->
     </div>
+    <!-- / help -->
 </template>
 <style scoped lang="scss">
 @use '../../scss/partials/variable' as *;

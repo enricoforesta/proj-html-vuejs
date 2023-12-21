@@ -13,17 +13,14 @@ export default {
                     subTitle: 'digital consulting',
                     description: 'When, while lovely valley teens with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a',
                     pathImage: '../../assets/img/logoDigital.png',
-
                 }, {
                     subTitle: 'banking consulting',
                     description: 'When, while lovely valley teens with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a',
                     pathImage: '../../assets/img/logoBanking.png',
-
                 }, {
                     subTitle: 'enterprise consulting',
                     description: 'When, while lovely valley teens with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a',
                     pathImage: '../../assets/img/logoEnterprise.png',
-
                 },
             ]
         }
@@ -37,11 +34,14 @@ export default {
 </script>
 <template>
     <div class="consultants">
+        <!--  title -->
         <div class="title">
             <h2>{{ title.toUpperCase() }}</h2>
             <hr>
         </div>
+        <!-- / title -->
         <div class="container-secondary">
+            <!-- / list -->
             <ul>
                 <li v-for="item in listConsultants">
                     <div class="image"> <img :src=getImagePath(item.pathImage) :alt=item.title>
@@ -52,6 +52,7 @@ export default {
                     </div>
                 </li>
             </ul>
+            <!-- / list -->
         </div>
     </div>
 </template>

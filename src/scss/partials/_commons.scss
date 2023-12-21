@@ -1,11 +1,13 @@
 @use './variable' as *;
 
-//reset
+// Reset
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+// Container 
 
 .container-primary {
     width: 1380px;
@@ -17,23 +19,9 @@
     margin: 0 auto;
 }
 
-body {
-    background-color: #22213d;
-    color: $primary-text-color;
+// Commons
 
-    a {
-        text-decoration: none;
-        color: currentColor;
-
-    }
-
-    li {
-        list-style: none;
-
-    }
-
-    img {
-        width: 100%;
-        display: block;
-    }
+img {
+    width: 100%;
+    display: block;
 }

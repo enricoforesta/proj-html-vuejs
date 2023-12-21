@@ -15,14 +15,18 @@ export default {
 </script>
 <template>
     <div class="container-primary">
+        <!-- text -->
         <div class="text">
             <span>{{ subTitle.toUpperCase() }}</span>
             <h2>{{ title.toUpperCase() }}</h2>
         </div>
+        <!-- / text -->
+        <!-- button -->
         <div class="button">
             <span><font-awesome-icon icon="fa-solid fa-arrow-left" /></span>
             <span> <font-awesome-icon icon="fa-solid fa-arrow-right" /></span>
         </div>
+        <!-- / button -->
         <componentImageProject />
     </div>
 </template>

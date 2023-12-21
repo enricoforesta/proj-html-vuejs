@@ -15,13 +15,17 @@ export default {
 </script>
 <template>
     <div class="container-primary">
+        <!-- text -->
         <div class="text">
             <span>{{ subTitle.toUpperCase() }}</span>
             <h2>{{ title.toUpperCase() }}</h2>
         </div>
+        <!-- / text -->
+        <!-- button -->
         <div class="button">
             <input type="button" value="VIEW ALL">
         </div>
+        <!-- / button -->
         <componentImageBlog />
     </div>
 </template>

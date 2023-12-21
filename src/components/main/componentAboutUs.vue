@@ -2,11 +2,6 @@
 import componentTextAboutUs from './componentTextAboutUs.vue';
 export default {
     name: "aboutUs",
-    data() {
-        return {
-
-        }
-    },
     components: {
         componentTextAboutUs
     }
@@ -18,7 +13,8 @@ export default {
     </div>
 </template>
 <style scoped lang="scss">
-.about-us {
+// Bg image
+div.about-us {
     background-image: url('../../assets/img/business-people-working-together-on-project-and-5FHSKBL.jpg');
     background-repeat: no-repeat;
     background-size: contain;

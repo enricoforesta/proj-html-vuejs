@@ -4,24 +4,29 @@ export default {
     data() {
         return {
             listName: ['home', 'about', 'projects', 'services', 'blog', 'contact']
-
         }
     }
 }
 </script>
 <template>
+    <!-- navbar -->
     <div class="nav">
         <div class="logo"><img src="../../assets/img/logotype-2-139x23.png" alt="PHLOX"></div>
+        <!--  list -->
         <ul class="list">
             <li v-for="item in listName">{{ item.toUpperCase() }}</li>
         </ul>
+        <!-- / list -->
+        <!--  icon -->
         <div class="icon">
             <a href="#"><font-awesome-icon icon="fa-brands fa-instagram" /></a>
             <a href="#"><font-awesome-icon icon="fa-brands fa-linkedin-in" /></a>
             <a href="#"><font-awesome-icon icon="fa-brands fa-facebook-f" /></a>
             <a href="#"><font-awesome-icon icon="fa-brands fa-x-twitter" /></a>
         </div>
+        <!-- / icon -->
     </div>
+    <!-- / navbar -->
 </template>
 <style scoped lang="scss">
 @use '../../scss/partials/variable' as *;
@@ -44,7 +49,6 @@ div.nav {
                 color: $primary-text-color;
             }
         }
-
     }
 
     div.icon {
@@ -53,5 +57,4 @@ div.nav {
             color: $primary-text-color;
         }
     }
-}
-</style>
+}</style>

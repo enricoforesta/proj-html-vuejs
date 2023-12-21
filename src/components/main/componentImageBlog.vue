@@ -1,7 +1,7 @@
 <script>
 import componentNewsBlog from './componentNewsBlog.vue';
 export default {
-    name: "imageProject",
+    name: "image blog",
     data() {
         return {
             pathImage: [

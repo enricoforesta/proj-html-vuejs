@@ -1,6 +1,7 @@
 <script>
 import componentTextImageFooter from './componentTextImageFooter.vue';
 export default {
+    name: 'Image footer',
     data() {
         return {
 
@@ -12,9 +13,11 @@ export default {
 }
 </script>
 <template>
+    <!--  image bg footer -->
     <div class="image">
         <componentTextImageFooter />
     </div>
+    <!-- / image bg footer -->
 </template>
 <style scoped lang="scss">
 @use '../../scss/partials/variable' as *;

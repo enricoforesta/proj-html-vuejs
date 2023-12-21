@@ -15,12 +15,13 @@ export default {
 </script>
 <template>
     <div class="container-primary">
+        <!-- text -->
         <div class="text">
             <span>{{ subtitle.toUpperCase() }}</span>
             <h2>{{ title.toUpperCase() }}</h2>
             <p>{{ content }}</p>
         </div>
-
+        <!-- / text -->
     </div>
 </template>
 <style scoped lang="scss">

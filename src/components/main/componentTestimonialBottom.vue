@@ -26,6 +26,7 @@ export default {
 }
 </script>
 <template>
+    <!-- list -->
     <ul class="content ">
         <li v-for="item in result">
             <p>{{ item.content }}</p>
@@ -33,6 +34,7 @@ export default {
             <h5>{{ item.from }}</h5>
         </li>
     </ul>
+    <!-- / list -->
 </template>
 <style scoped>
 .content {

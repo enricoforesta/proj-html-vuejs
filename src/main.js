@@ -1,18 +1,18 @@
 import { createApp } from 'vue'
 import './style.scss'
 import App from './App.vue'
-// Fontawesome
+// Font Awesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-//free
+// Free
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
-//regular
+// Regular
 import { faComment } from '@fortawesome/free-regular-svg-icons'
 
-//brands
+// Brands
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons'

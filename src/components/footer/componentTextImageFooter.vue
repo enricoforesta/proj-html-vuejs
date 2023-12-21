@@ -1,5 +1,6 @@
 <script>
 export default {
+    name: 'Text image footer',
     data() {
         return {
             title: "let's talk about work",
@@ -9,11 +10,13 @@ export default {
 }
 </script>
 <template>
+    <!-- /text -->
     <div class="text">
         <h2>{{ title.toUpperCase() }}</h2>
         <h5>{{ content }}</h5>
         <input type="button" value="GET STARTED">
     </div>
+    <!-- / text -->
 </template>
 <style scoped lang="scss">
 @use '../../scss/partials/variable' as *;

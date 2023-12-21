@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: "navbar",
+    name: "navbar header",
     data() {
         return {
             listName: ['home', 'about', 'projects', 'services', 'blog', 'contact',]
@@ -9,12 +9,16 @@ export default {
 }
 </script>
 <template>
+    <!-- navbar -->
     <div class="nav">
         <div class="logo"><img src="../../assets/img/logotype.png" alt=""></div>
+        <!--  list -->
         <ul class="list">
             <li v-for="item in listName">{{ item.toUpperCase() }}</li>
         </ul>
+        <!-- / list -->
     </div>
+    <!-- / navbar -->
 </template>
 <style scoped lang="scss">
 div.nav {
@@ -35,7 +39,6 @@ div.nav {
                 font-weight: bold;
             }
         }
-
     }
 
     div.logo {

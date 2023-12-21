@@ -1,25 +1,28 @@
 <script>
 
 export default {
-    name: "text-header",
+    name: "text header",
     data() {
         return {
             title: 'The best bussiness consulting',
             subtitle: 'Always the best way you need it'
         }
-    }, components: {
     }
 }
 </script>
 <template>
+    <!-- text -->
     <div class="text">
         <span>{{ subtitle.toUpperCase() }}</span>
         <h2>{{ title.toUpperCase() }}</h2>
+        <!-- button -->
         <div class="read-more">
             <input type="button" value="READ MORE">
             <font-awesome-icon icon="fa-solid fa-play" />
         </div>
+        <!-- / button -->
     </div>
+    <!-- / text -->
 </template>
 <style scoped lang="scss">
 @use '../../scss/partials/variable' as *;
@@ -43,6 +46,7 @@ div.text {
         margin-right: 20px;
     }
 
+    // Button
     div.read-more {
         display: flex;
         align-items: center;

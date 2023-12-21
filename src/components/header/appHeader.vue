@@ -3,11 +3,6 @@ import componentNavbar from './componentNavbar.vue';
 import componentTextHeader from './componentTextHeader.vue';
 export default {
     name: "appHeader",
-    data() {
-        return {
-
-        }
-    },
     components: {
         componentNavbar,
         componentTextHeader
@@ -23,8 +18,7 @@ export default {
     </header>
 </template>
 <style scoped lang="scss">
-@use '../../scss/partials/variable' as *;
-
+// bg-image
 header {
     background-image: url('../../assets/img/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg');
     background-repeat: no-repeat;
