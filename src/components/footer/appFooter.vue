@@ -3,7 +3,7 @@ import componentImageFooter from './componentImageFooter.vue';
 import componentNavbarFooter from './componentNavbarFooter.vue';
 import componentCopyrightFooter from './componentCopyrightFooter.vue';
 export default {
-    name: 'footer',
+    name: 'myfooter',
     components: {
         componentImageFooter,
         componentNavbarFooter,

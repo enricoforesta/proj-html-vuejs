@@ -1,35 +1,10 @@
 <script>
+import { store } from '../../store';
 export default {
     name: "navbar footer",
     data() {
         return {
-            // listName: ['home', 'about', 'projects', 'services', 'blog', 'contact']
-            listName: [
-                {
-                    title: 'home',
-                    id: '#home',
-                },
-                {
-                    title: 'about',
-                    id: '#about',
-                },
-                {
-                    title: 'projects',
-                    id: '#projects',
-                },
-                {
-                    title: 'services',
-                    id: '#services',
-                },
-                {
-                    title: 'blog',
-                    id: '#blog',
-                },
-                {
-                    title: 'contact',
-                    id: '#contact',
-                },
-            ]
+            store
         }
     }
 }
@@ -40,15 +15,18 @@ export default {
         <div class="logo"><img src="../../assets/img/logotype-2-139x23.png" alt="PHLOX"></div>
         <!--  list -->
         <ul class="list">
-            <li v-for="item in listName"> <a :href="item.id"> {{ item.title.toUpperCase() }} </a></li>
+            <li v-for="item in this.store.listName"> <a :href="item.id"> {{ item.title.toUpperCase() }} </a></li>
         </ul>
         <!-- / list -->
         <!--  icon -->
         <div class="icon">
-            <a href="#"><font-awesome-icon icon="fa-brands fa-instagram" /></a>
-            <a href="#"><font-awesome-icon icon="fa-brands fa-linkedin-in" /></a>
-            <a href="#"><font-awesome-icon icon="fa-brands fa-facebook-f" /></a>
-            <a href="#"><font-awesome-icon icon="fa-brands fa-x-twitter" /></a>
+            <a href="https://www.instagram.com/accounts/login/" target="_blank"><font-awesome-icon
+                    icon="fa-brands fa-instagram" /></a>
+            <a href="https://it.linkedin.com/" target="_blank"> <font-awesome-icon icon="fa-brands fa-linkedin-in" /></a>
+            <a href="https://m.facebook.com/login/?locale=it_IT&refsrc=deprecated" target="_blank"><font-awesome-icon
+                    icon="fa-brands fa-facebook-f" /></a>
+            <a href="https://twitter.com/i/flow/login" target="_blank"><font-awesome-icon
+                    icon="fa-brands fa-x-twitter" /></a>
         </div>
         <!-- / icon -->
     </div>
