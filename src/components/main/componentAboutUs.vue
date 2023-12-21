@@ -8,7 +8,7 @@ export default {
 }
 </script>
 <template>
-    <div class="about-us">
+    <div class="about-us" id="about">
         <componentTextAboutUs />
     </div>
 </template>

@@ -11,7 +11,7 @@ export default {
 </script>
 <template>
     <header>
-        <div class="container-primary">
+        <div class="container-primary" id="home">
             <componentNavbar />
             <componentTextHeader />
         </div>

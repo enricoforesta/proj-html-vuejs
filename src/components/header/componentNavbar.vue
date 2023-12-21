@@ -3,7 +3,33 @@ export default {
     name: "navbar header",
     data() {
         return {
-            listName: ['home', 'about', 'projects', 'services', 'blog', 'contact',]
+            // listName: ['home', 'about', 'projects', 'services', 'blog', 'contact',]
+            listName: [
+                {
+                    title: 'home',
+                    id: '#home',
+                },
+                {
+                    title: 'about',
+                    id: '#about',
+                },
+                {
+                    title: 'projects',
+                    id: '#projects',
+                },
+                {
+                    title: 'services',
+                    id: '#services',
+                },
+                {
+                    title: 'blog',
+                    id: '#blog',
+                },
+                {
+                    title: 'contact',
+                    id: '#contact',
+                },
+            ]
         }
     }
 }
@@ -14,7 +40,7 @@ export default {
         <div class="logo"><img src="../../assets/img/logotype.png" alt=""></div>
         <!--  list -->
         <ul class="list">
-            <li v-for="item in listName">{{ item.toUpperCase() }}</li>
+            <li v-for="item in listName"> <a :href="item.id"> {{ item.title.toUpperCase() }} </a></li>
         </ul>
         <!-- / list -->
     </div>

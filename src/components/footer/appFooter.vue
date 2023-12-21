@@ -14,7 +14,7 @@ export default {
 <template>
     <footer>
         <componentImageFooter />
-        <div class="container-primary">
+        <div class="container-primary" id="contact">
             <componentNavbarFooter />
             <componentCopyrightFooter />
         </div>

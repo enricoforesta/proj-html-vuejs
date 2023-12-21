@@ -14,7 +14,7 @@ export default {
 }
 </script>
 <template>
-    <div class="container-primary">
+    <div class="container-primary" id="blog">
         <!-- text -->
         <div class="text">
             <span>{{ subTitle.toUpperCase() }}</span>

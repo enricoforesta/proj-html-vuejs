@@ -33,7 +33,7 @@ export default {
 }
 </script>
 <template>
-    <div class="consultants">
+    <div class="consultants" id="services">
         <!--  title -->
         <div class="title">
             <h2>{{ title.toUpperCase() }}</h2>

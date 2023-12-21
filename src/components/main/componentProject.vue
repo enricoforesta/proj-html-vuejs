@@ -5,7 +5,7 @@ export default {
     data() {
         return {
             title: 'our expert trusted consultants help clients',
-            subTitle: 'project'
+            subTitle: 'projects'
         }
     },
     components: {
@@ -14,7 +14,7 @@ export default {
 }
 </script>
 <template>
-    <div class="container-primary">
+    <div class="container-primary" id="projects">
         <!-- text -->
         <div class="text">
             <span>{{ subTitle.toUpperCase() }}</span>
