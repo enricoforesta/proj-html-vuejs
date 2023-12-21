@@ -41,7 +41,7 @@ export default {
 
         h2 {
             font-size: 30px;
-            margin: 40px 0;
+            margin: 30px 0;
             margin-left: auto;
             text-align: end;
             width: 30%;

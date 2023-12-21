@@ -26,11 +26,13 @@ div.nav {
         gap: 15px;
 
         li {
+            font-weight: 100;
             padding-top: 30px;
             cursor: pointer;
 
             &:hover {
                 border-top: 2px solid currentColor;
+                font-weight: bold;
             }
         }
 

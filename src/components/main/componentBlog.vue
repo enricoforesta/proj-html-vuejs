@@ -46,11 +46,13 @@ export default {
 
         h2 {
             font-size: 30px;
-            margin: 40px 0;
+            margin: 30px 0;
         }
     }
 
     div.button {
+        align-self: center;
+
         input {
             padding: 20px 50px;
             cursor: pointer;

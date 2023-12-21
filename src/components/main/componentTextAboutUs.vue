@@ -33,11 +33,11 @@ export default {
 
 .text {
     padding: 150px 0px;
-    padding-left: 100px;
-    width: 50%;
+    margin-right: 100px;
+    width: 45%;
 
     h2 {
-        font-size: 50px;
+        font-size: 55px;
         margin: 30px 0;
     }
 

@@ -29,8 +29,8 @@ div.text {
     width: 700px;
 
     h2 {
-        font-size: 100px;
-        margin: 50px 0;
+        font-size: 110px;
+        margin: 60px 0;
         line-height: 100%;
     }
 

@@ -92,10 +92,10 @@ div.consultants {
             li {
                 display: flex;
                 gap: 50px;
-                width: calc((100% - 300px) / 2);
+                width: calc((100% - 150px) / 2);
 
                 .image {
-                    width: 250px;
+                    width: 200px;
                 }
 
                 .description {
