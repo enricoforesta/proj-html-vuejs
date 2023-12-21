@@ -1,6 +1,7 @@
 <script>
 import componentImageFooter from './componentImageFooter.vue';
 import componentNavbarFooter from './componentNavbarFooter.vue';
+import componentCopyrightFooter from './componentCopyrightFooter.vue';
 export default {
     data() {
         return {
@@ -9,7 +10,8 @@ export default {
     },
     components: {
         componentImageFooter,
-        componentNavbarFooter
+        componentNavbarFooter,
+        componentCopyrightFooter
     }
 }
 </script>
@@ -18,6 +20,7 @@ export default {
         <componentImageFooter />
         <div class="container-primary">
             <componentNavbarFooter />
+            <componentCopyrightFooter />
         </div>
     </footer>
 </template>
